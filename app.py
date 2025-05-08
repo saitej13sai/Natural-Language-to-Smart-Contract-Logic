@@ -3,7 +3,7 @@ import os
 import re
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key=os.getenv("OPENAI API KEY))
 
 PROMPT_TEMPLATE = """
 You are an expert Solidity developer focused on security. Generate minimal, secure Solidity code for the following natural language requirement: "{user_input}".
